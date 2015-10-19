@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com" name="github"/>
+
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master" name="poky" path="sources/meta-raspberrypi"/>
+
+  <project remote="github" revision="master" name="oe/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="master" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="master" name="erikboto/meta-erbopi" path="sources/meta-erbopi"/>
+  
+</manifest>
